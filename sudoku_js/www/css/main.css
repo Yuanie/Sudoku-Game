@@ -1,0 +1,173 @@
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: #eeeeee;
+  font-family: "Consolas", "微软雅黑";
+  user-select: none;
+  max-width: 400px;
+}
+body > * {
+  max-width: 400px;
+}
+.title {
+  padding: 1rem 5%;
+  background: steelblue;
+  color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.2rem 0.3rem #303030;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.hidden {
+  display: none;
+}
+.color-1 {
+  color: #4876ff;
+}
+.color-2 {
+  color: #458b00;
+}
+.color-3 {
+  color: #cd6600;
+}
+.color-4 {
+  color: #27408b;
+}
+.color-5 {
+  color: #b22222;
+}
+.color-6 {
+  color: #48d1cc;
+}
+.color-7 {
+  color: #cd00cd;
+}
+.color-8 {
+  color: #eec900;
+}
+.color-9 {
+  color: #000000;
+}
+.container {
+  padding-left: 5%;
+}
+.row > span:active {
+  background-color: burlywood;
+}
+.row > span:active.empty {
+  color: burlywood;
+}
+.row > span {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 25px;
+  width: 10%;
+  height: 20px;
+  line-height: 24px;
+  border: 1px solid #076760;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  background: white;
+}
+.row > span.fixed {
+  background-color: #eeeeee;
+}
+.row > span.empty {
+  color: white;
+}
+.row > span.empty.mark1 {
+  color: lightblue;
+}
+.row > span.empty.mark2 {
+  color: lightgreen;
+}
+.row > span.empty.error {
+  color: lightpink;
+}
+.row > span.mark1 {
+  background-color: lightblue;
+}
+.row > span.mark2 {
+  background-color: #90ee90;
+}
+.row > span.error {
+  background-color: lightpink;
+}
+.row > span.col_g_left {
+  border-left-width: 1px;
+}
+.row > span.col_g_right {
+  border-right-width: 1px;
+}
+.row > span:first-child {
+  border-left-width: 2px;
+}
+.row > span:last-child {
+  border-right-width: 2px;
+}
+.row.row_g_top > span {
+  border-top-width: 1px;
+}
+.row.row_g_bottom > span {
+  border-bottom-width: 1px;
+}
+.row:first-child > span {
+  border-top-width: 2px;
+}
+.row:last-child > span {
+  border-bottom-width: 2px;
+}
+#popupNumbers {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+#popupNumbers .popup-num {
+  position: inline-block;
+  width: 120px;
+  margin: 0 auto;
+}
+#popupNumbers .popup-num .row > span {
+  width: 36.5px;
+  height: 36.5px;
+  line-height: 36.5px;
+}
+.dashboard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background: steelblue;
+  box-sizing: border-box;
+  box-shadow: 0 -0.1rem 0.2rem #303030;
+  height: 3rem;
+}
+.dashboard .buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.dashboard .buttons button {
+  float: left;
+  cursor: pointer;
+  width: 25%;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-family: "微软雅黑";
+  color: white;
+  border: 1px solid #cccccc;
+  background: transparent;
+  border-right-width: 0;
+}
+.dashboard .buttons button:last-child {
+  border-right-width: 1px;
+}
